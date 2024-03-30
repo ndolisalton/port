@@ -82,6 +82,7 @@ export const Skill_data = [
   
   export const Socials = [
     {
+      id:1,
       name: "Instagram",
       src: "/instagram.svg",
       target:"https://www.instagram.com/ndolisalton",
@@ -89,6 +90,7 @@ export const Skill_data = [
    
    
     {
+      id:2,
       name:"Linkedin",
       src:"/linkedin.svg",
       target:"https://www.linkedin.com/in/ndolisalton",
