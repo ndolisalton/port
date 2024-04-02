@@ -1,5 +1,5 @@
 import React from "react";
-import { RiSketching } from "react-icons/ri";
+import { RiSketching,  } from "react-icons/ri";
 import { MdLocationOn } from "react-icons/md";
 import { FaEnvelope, FaPhone, FaMobileAlt, FaLaptopCode } from "react-icons/fa";
 let year = new Date().getFullYear();
@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="font-bold text-[16px]">Get to Know</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <MdLocationOn />
-              <span className="text-[15px] ml-[6px]">Rwamagana,Rwanda</span>
+              <a href="#skills" className="text-[15px] ml-[6px]">Rwamagana,Rwanda</a>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaPhone />

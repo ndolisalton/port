@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { Socials } from "@/constants";
 import { motion } from "framer-motion";
 import {
   slideInFromLeft,
@@ -55,6 +56,18 @@ const HeroContent = () => {
         >
           Learn More!
   </motion.a>*/}
+   <div className="flex flex-row gap-5">
+          {Socials.map((social) => (
+            <a key={social.id} href={social.target}>
+              <Image
+                src={social.src}
+                alt={social.name}                
+                width={50}
+                height={50}                
+              />
+            </a>
+          ))}
+        </div>
       </div>
 
       <motion.div

@@ -94,6 +94,12 @@ export const Skill_data = [
       name:"Linkedin",
       src:"/linkedin.svg",
       target:"https://www.linkedin.com/in/ndolisalton",
+    },
+    {
+      id:3,
+      name: "Github",
+      src: "/github.svg",
+      target:"https://www.github.com/ndolisalton",
     }
     
   ];
